@@ -32,14 +32,48 @@ input[type="text"] {
         
 }
 
-button {
-    padding: 10px 20px;
-    border-radius: 10px;
-    border-color: green;
-    font-size: 1em;
-    cursor: pointer;
-    color: red;
-    background-color: #FFFF00;
+.button {
+  width: 200px;
+  padding: 15px 20px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #005aff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 4px 9px #002d81;
+}
+
+.button:hover {background-color: #009aff}
+
+.button:active {
+  background-color: #002d81;
+  box-shadow: 0 5px #666;
+  transform: translateX(6px) translateY(2px);
+}
+
+.button1 {
+  width: 200px;
+  padding: 15px 20px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #ffdf00;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 4px 9px #E47200;
+}
+
+.button1:hover {background-color: #FFEB3E}
+
+.button1:active {
+  background-color: #E47200;
+  box-shadow: 0 5px #666;
+  transform: translateX(6px) translateY(2px);
 }
 
 .hangman-container {
