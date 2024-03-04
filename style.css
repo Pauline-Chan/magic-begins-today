@@ -1,0 +1,54 @@
+.container {
+    text-align: center;
+    color: black;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.word {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+.guesses {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #04AA6D;
+}
+
+.message {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: orange;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px; 
+    color: blue;
+    width: 80px;
+        
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: green;
+    font-size: 1em;
+    cursor: pointer;
+    color: red;
+    background-color: #FFFF00;
+}
+
+.hangman-container {
+    margin-top: 20px;
+
+}
+
+.guessed-letters {
+    margin-top: 20px;
+    font-size: 25px;
+    color: purple;
+}
