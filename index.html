@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hangman Game</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="container">
@@ -23,7 +24,10 @@
 	<audio id="audioEffect3" src="twinkle-sparkle.mp3"></audio>&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
         <button class="button" id="myButton4" onclick="restartGame()">Restart Game</button>
 	<audio id="audioEffect4" src="notification.mp3"></audio>&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="button" onclick="mutePage()" type="button"><img src="Sound-on.png"><img src="Sound-off.png"></button>
         <div class="hangman-container">
+        
+
             <img id="hangmanImage" src="hangman0.png" alt="Hangman">
         </div>
         <div id="guessedLetters" class="guessed-letters"></div><br>

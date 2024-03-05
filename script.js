@@ -369,6 +369,8 @@ function shuffleArray(array) {
 // Rest of the code remains the same...
 
 
+
+
 document.getElementById("myButton1").addEventListener("click", function() {
     var audio = document.getElementById("audioEffect1");
     audio.play();
@@ -394,6 +396,16 @@ const letterInput = document.getElementById('letterInput');
     letterInput.addEventListener('input', function() {
         myAudio.play(); // Play letter entered sound when a letter is entered
     });
+
+// Mute a singular HTML5 element
+        function muteMe(elem) {
+            elem.muted = !elem.muted;
+        }
+
+        // Try to mute all video and audio elements on the page
+        function mutePage() {
+            document.querySelectorAll("video, audio").forEach((elem) => muteMe(elem));
+        }
 
 function restartGame() {
     initGame();
