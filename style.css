@@ -62,6 +62,10 @@ input[type="text"] {
   transform: translateX(6px) translateY(2px);
 }
 
+input, textarea, button, select, a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .button1 {
   
   padding: 10px 15px;
