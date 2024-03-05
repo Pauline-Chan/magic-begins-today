@@ -47,11 +47,12 @@ input[type="text"] {
   border: none;
   border-radius: 15px;
   box-shadow: 4px 9px #002d81;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  -webkit-user-radius: 0;
+  -moz-border-radius: 0;
+  -margin-bottom: 0;
+  &:last-child; {
+  .rounded-bottom-corners(4px);
+    }
 }
 
 .button:hover {background-color: #009aff}
