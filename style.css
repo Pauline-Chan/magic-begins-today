@@ -25,7 +25,8 @@
 }
 
 input[type="text"] {
-    margin-bottom: 10px;
+    
+    
     font-size: 20px;
     text-align: center;
     padding: 10px; 
@@ -35,7 +36,6 @@ input[type="text"] {
 }
 
 .button {
-  
   
   padding: 10px 15px;
   font-size: 20px;
@@ -88,13 +88,22 @@ input, textarea, button, select, a {
   transform: translateX(6px) translateY(2px);
 }
 
+table, tr, td {
+  padding: 10px 15px;
+}
+
 .hangman-container {
     margin-top: 20px;
-
 }
 
 .guessed-letters {
     margin-top: 20px;
     font-size: 25px;
     color: purple;
+}
+
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }

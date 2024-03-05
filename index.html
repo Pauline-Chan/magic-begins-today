@@ -10,21 +10,41 @@
 <body>
     <div class="container">
         <h1>Let's play Hangman: <br>May the Word be ever in your favour!  </h1>
-        <p id="clue" class="clue"></pd>
+        <p id="clue" class="clue"></p>
         <div id="word" class="word"></div>
         <div id="guesses"y class="guesses"></div>
         <div id="message" class="message"></div>
+        <center>
+        <table>
+        <tr>
+        <td>
         <input type="text" maxlength="1" id="letterInput" placeholder="Enter">
-	<audio id="myAudio" src="water.mp3"></audio>&nbsp;&nbsp;&nbsp;&nbsp;
+	<audio id="myAudio" src="water.mp3"></audio>
+        </td>
+        <td>
         <button class="button" id="myButton1" onclick="makeGuess()">Guess Letter</button>
-	<audio id="audioEffect1" src="Cartoon-Fail.mp3"></audio>&nbsp;&nbsp;&nbsp;&nbsp;
+	<audio id="audioEffect1" src="Cartoon-Fail.mp3"></audio>
+        </td>
+        <td>
         <button class="button" id="myButton2" onclick="guessWord()">Guess Word</button> <!-- New button for guessing the entire word -->
-	<audio id="audioEffect2" src="multi-pop.mp3"></audio>&nbsp;&nbsp;&nbsp;&nbsp;
+	<audio id="audioEffect2" src="multi-pop.mp3"></audio>
+        </td>
+        <td>
 	<button class="button" id="myButton3" onclick="optionWord()">Choose</button> <!-- New button for 3 guess words -->
-	<audio id="audioEffect3" src="twinkle-sparkle.mp3"></audio>&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+	<audio id="audioEffect3" src="twinkle-sparkle.mp3"></audio>
+        </td></tr>
+        <tr>
+        <td></td>
+        <td>
         <button class="button" id="myButton4" onclick="restartGame()">Restart Game</button>
-	<audio id="audioEffect4" src="notification.mp3"></audio>&nbsp;&nbsp;&nbsp;&nbsp;
+	<audio id="audioEffect4" src="notification.mp3"></audio>
+        </td>
+        <td>
         <button class="button" onclick="mutePage()" type="button"><img src="Sound-on.png"><img src="Sound-off.png"></button>
+	</td>
+        </tr>
+        </table>
+        </center>
         <div class="hangman-container">
         
 
