@@ -106,8 +106,7 @@ table, tr, td {
 }
 
 @media only screen and (max-width: 480px) {
-    /* Enable horizontal scrollbar for tables on mobile screens */
-    .tablemobile {
+       .tablemobile {
         overflow-x: auto;
         display: block;
     }
