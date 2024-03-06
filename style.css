@@ -88,7 +88,6 @@ input, textarea, button, select, a {
 
 table, tr, td {
   padding: 10px 15px;
-  
 }
 
 .hangman-container {
@@ -101,8 +100,4 @@ table, tr, td {
     color: purple;
 }
 
-html, body {
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-}
+

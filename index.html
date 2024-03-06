@@ -16,18 +16,22 @@
         <div id="message" class="message"></div>
         <center>
         <table>
+        <tr><td>
+        <button class="button" onclick="mutePage()" type="button"><img src="Sound-on.png"><img src="Sound-off.png"></button>
+	</td>  
+        </td>
+        <td><center>
+        <input type="text" maxlength="1" id="letterInput" placeholder="Enter">
+	<audio id="myAudio" src="water.mp3"></audio>
+        </td></center>
+        </tr>
         <tr>
-        <td rowspan="6"> <div class="hangman-container">
+        <td rowspan="5"> <div class="hangman-container">
         
 
             <img id="hangmanImage" src="hangman0.png" alt="Hangman">
         </div>
 	</td>
-        <td><center>
-        <input type="text" maxlength="1" id="letterInput" placeholder="Enter">
-	<audio id="myAudio" src="water.mp3"></audio>
-        </td></center>
-        </tr><tr>
         <td>
         <button class="button" id="myButton1" onclick="makeGuess()">Guess Letter</button>
 	<audio id="audioEffect1" src="Cartoon-Fail.mp3"></audio>
@@ -46,11 +50,8 @@
         <td>
         <button class="button" id="myButton4" onclick="restartGame()">Restart Game</button>
 	<audio id="audioEffect4" src="notification.mp3"></audio>
-        </td></tr>
-        <tr><td>
-        <button class="button" onclick="mutePage()" type="button"><img src="Sound-on.png"><img src="Sound-off.png"></button>
-	</td>     
-        </tr>
+        </td>
+        </tr>  
         </table>
         </center>
         
