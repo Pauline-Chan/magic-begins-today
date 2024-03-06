@@ -65,7 +65,7 @@ input, textarea, button, select, a {
 }
 
 .button1 {
-  
+  width: 170px;
   padding: 10px 15px;
   font-size: 20px;
   text-align: center;
@@ -78,6 +78,10 @@ input, textarea, button, select, a {
   box-shadow: 4px 9px #E47200;
 }
 
+.button1:focus {
+  outline-style: none;
+}
+
 .button1:hover {background-color: #FFEB3E}
 
 .button1:active {
@@ -88,6 +92,7 @@ input, textarea, button, select, a {
 
 table, tr, td {
   padding: 10px 15px;
+ 
 }
 
 .hangman-container {
