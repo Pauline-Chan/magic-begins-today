@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body><center>
+<body>
     <div class="container">
         <h1>Let's play Hangman: <br>May the Word be ever in your favour!  </h1>
         <p id="clue" class="clue"></p>
@@ -15,11 +15,13 @@
         <div id="guesses"y class="guesses"></div>
         <div id="message" class="message"></div>
         <center>
-        <table>
-        <tr><td>
+        <table class="tablemobile">
+        <tr>
+
+        <td>
         <button class="button1" onclick="mutePage()" type="button"><img src="Sound-on.png"><img src="Sound-off.png"></button>
-	</td>  
         </td>
+
         <td><center>
         <input type="text" maxlength="1" id="letterInput" placeholder="Enter">
 	<audio id="myAudio" src="water.mp3"></audio>
@@ -59,6 +61,5 @@
         <div style="color: #FF5733;" id="correctWords" class="correct-words"></div>
     </div>
     <script src="script.js"></script>
-</center>
 </body>
 </html>

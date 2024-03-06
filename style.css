@@ -65,7 +65,7 @@ input, textarea, button, select, a {
 }
 
 .button1 {
-  width: 170px;
+  width: 100px;
   padding: 10px 15px;
   font-size: 20px;
   text-align: center;
@@ -105,4 +105,10 @@ table, tr, td {
     color: purple;
 }
 
-
+@media only screen and (max-width: 480px) {
+    /* Enable horizontal scrollbar for tables on mobile screens */
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
+    }
+}
