@@ -160,7 +160,7 @@ function getClueForWord(word) {
         "nobody": "Indicates no person or not anyone",
         "obtain": "To acquire, get or secure something through effort or action",
         "orchid": "A type of beautiful flowering plant known for its intricate and colorful blooms, sometimes planted in charcoal",
-        "oppose": "To resist or be againts something or someone",
+        "oppose": "To resist or be against something or someone",
         "oxygen": "The essential gas required for breathing and sustaining life",
         "oyster": "A shellfish that produces pearls",
         "orphan": "A child who has lost both parents or is without parental care",
